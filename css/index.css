@@ -1,0 +1,181 @@
+@import url('https://fonts.googleapis.com/css2?family=Cairo:wght@300&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Cairo', sans-serif;
+}
+body{
+    background-color: #eee;
+}
+header{
+    background-color: rgb(76, 78, 78);
+}
+.my-web a{
+    text-decoration: none;
+    color: white;
+    float: left;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    margin-left: 50px;
+    font-size: 20px;
+}
+.my-web a:hover{
+    color: aqua;
+}
+header ul{
+    list-style-type: none;
+    margin: 10px;
+    text-align: center;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    font-size: 20px;
+}
+header ul li{
+    display: inline-block;
+    margin-left: 25px;
+}
+header ul li a{
+    text-decoration: none;
+    color: white;
+}
+header ul li a:hover{
+    color: aqua;
+}
+.main-img{
+    background-image: url(../images/t2.jpg);
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    height: 300px; 
+}
+section{
+    width: 100%;
+    background-color: #eee;
+    margin-top: -20px;
+}
+.contain{
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    padding: 10px;
+}
+.contain h1{
+    color: red;
+}
+.contain p{
+    font-size: 20px;
+}
+.contain div img{
+    float: left;
+    margin: auto;
+    margin-top: 20px;
+    margin-left: 120px;
+    height: 150px;
+    margin-bottom: 30px;
+    border: 10px;
+}
+.container{
+    width: 80%;
+    margin: auto;
+    margin-top: 15px; 
+    margin-bottom: 20px; 
+    text-align: center;  
+}
+.container h2{
+    margin: 20px;
+    font-size: 30px;
+    color: red;
+}
+.features{
+    display: flex;
+    margin-top: 15px;
+}
+.features .feature{
+    text-align: center;
+    background-color: white;
+    width: 30%;
+    margin: auto;
+    padding: 15px;
+    height: 160px;
+    border-radius: 15px;
+    cursor: pointer;
+    margin-left: 20px;
+    transition: all 0.3s;
+}
+.features .feature:hover{
+    box-shadow: 3px 3px 10px rgb(146, 146, 230);
+    transform: translateX(3px);
+    background-color: rgb(250, 250, 250);
+}
+
+.features i{
+    padding-top: 15px;
+    font-size: 30px;
+    background-color: red;
+    padding: 15px;
+    border-radius: 50%;
+    color: white;
+}
+.contact-us{
+    margin-top: 200px;
+    margin-bottom: 100px;
+}
+.contact-us h2{
+    text-align: center;
+    font-size: 30px;
+    color: red;
+}
+.contact-form{
+    width: 600px;
+    margin: auto;
+    margin-top: 30px;
+    background-color: rgba(255, 255, 255, 0.849);
+    padding: 40px;
+    border-radius: 5px;
+    text-align: center;
+}
+.input-form{
+    margin-bottom: 20px;
+}
+.input-form input{
+    width:400px ;
+    height: 30px;
+    border: 1px solid black;
+    border-radius: 6px;
+}
+textarea{
+    width:400px ;
+    height: 150px;
+    border: 1px solid black;
+    border-radius: 6px;
+}
+button{
+    background-color: rgb(250, 51, 51);
+    color: white;
+    width: 250px;
+    height: 50px;
+    border: 1px solid white;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 20px;
+}
+.inner-footer{
+    list-style-type: none;
+    text-align: center;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    background-color: rgb(76, 78, 78);
+}
+.inner-footer ul li i{
+    width: 50px;
+    color: white;
+}
+.inner-footer ul li{
+    display: inline-block;
+    margin-left: 15px; 
+}
+.inner-footer ul :hover{
+    color: blue;
+}
+
+
